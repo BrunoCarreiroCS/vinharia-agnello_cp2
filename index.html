@@ -3,53 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Checkpoint 02 da Vinheria Agnello com cadastro e avaliacao de vinhos em JavaScript.">
+    <meta name="description" content="Vinheria Agnello - sistema de avaliacao de estoque e tendencia de vinhos.">
     <meta name="author" content="Grupo Vinheria Agnello">
 
-    <title>Vinheria Agnello | Checkpoint 02</title>
+    <title>Vinheria Agnello</title>
 
     <link rel="icon" type="image/png" href="./src/assets/imgs/icons8-vinho-64.png">
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <p>Checkpoint 02</p>
-        <h1>Vinheria Agnello</h1>
-        <span>Sistema de avaliacao de estoque e tendencia de vinhos</span>
+    <header class="topo">
+        <a class="marca" href="./index.html">Vinheria Agnello</a>
+
+        <nav class="menu" aria-label="Navegacao principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#sistema">Sistema</a>
+            <a href="#adega">Adega</a>
+        </nav>
     </header>
 
-    <main class="conteudo">
-        <section class="bloco">
-            <h2>Sobre o projeto</h2>
+    <main>
+        <section class="hero">
+            <div class="hero-texto">
+                <p class="subtitulo">Controle interno da adega</p>
+                <h1>Vinhos selecionados com cuidado, estoque acompanhado de perto.</h1>
+                <p>
+                    A Vinheria Agnello usa um sistema simples para registrar vinhos,
+                    analisar quantidade em estoque e acompanhar a idade das safras.
+                </p>
+                <a class="botao" href="#sistema">Entender o sistema</a>
+            </div>
+        </section>
+
+        <section class="secao" id="sobre">
+            <div>
+                <p class="subtitulo">Nossa vinheria</p>
+                <h2>Tradicao e organizacao no atendimento</h2>
+            </div>
             <p>
-                Esta pagina apresenta um sistema simples feito em JavaScript para
-                cadastrar vinhos, verificar estoque baixo, classificar a safra e
-                exibir um resumo final pelo navegador.
+                Este projeto simula uma pagina da Vinheria Agnello. A experiencia
+                visual apresenta a loja, enquanto o JavaScript executa o cadastro
+                dos vinhos por meio de prompts e alertas do navegador.
             </p>
         </section>
 
-        <section class="bloco">
-            <h2>O que o sistema faz</h2>
-            <ul>
-                <li>Cadastra varios vinhos usando prompt.</li>
-                <li>Valida entradas de texto e numero.</li>
-                <li>Identifica estoque baixo quando a quantidade e menor que 5.</li>
-                <li>Classifica o vinho como jovem, amadurecido ou antigo.</li>
-                <li>Mostra os dados no console e o resumo final em alert.</li>
-            </ul>
+        <section class="cards" id="sistema">
+            <article class="card">
+                <h3>Cadastro de vinhos</h3>
+                <p>O sistema solicita nome, tipo, safra e quantidade em estoque.</p>
+            </article>
+
+            <article class="card">
+                <h3>Avaliacao de estoque</h3>
+                <p>Quando a quantidade e menor que 5, o vinho recebe aviso de estoque baixo.</p>
+            </article>
+
+            <article class="card">
+                <h3>Tendencia da safra</h3>
+                <p>Cada vinho e classificado como jovem, amadurecido ou antigo.</p>
+            </article>
         </section>
 
-        <section class="bloco destaque">
-            <h2>Como testar</h2>
+        <section class="secao destaque" id="adega">
+            <div>
+                <p class="subtitulo">Teste no navegador</p>
+                <h2>Abra a pagina e responda ao cadastro</h2>
+            </div>
             <p>
-                Ao abrir esta pagina no navegador, responda aos prompts. Para ver
-                os detalhes cadastrados, abra o console com F12 e acesse a aba Console.
+                Assim que a pagina carrega, o script inicia o atendimento por
+                prompt. Ao final, o resumo aparece por alert e os detalhes podem
+                ser conferidos no console do navegador.
             </p>
         </section>
     </main>
 
     <footer class="rodape">
-        <p>Projeto desenvolvido para o Checkpoint 02 de Front-End.</p>
+        <p>Vinheria Agnello - Checkpoint 02 de Front-End</p>
     </footer>
 
     <script src="./src/js/script.js"></script>
