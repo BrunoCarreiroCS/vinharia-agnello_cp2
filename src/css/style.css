@@ -6,76 +6,91 @@
 
 body {
     min-height: 100vh;
-    color: #2b1b16;
-    background: #f7efe6;
+    color: #2d211c;
+    background-color: #f8f1e9;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    width: min(1100px, 92%);
-    margin: 0 auto;
-    padding: 48px 0;
+.cabecalho {
+    padding: 56px 24px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #5c1721;
 }
 
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 360px;
-    gap: 32px;
-    align-items: center;
-}
-
-.hero-texto {
-    padding: 24px 0;
-}
-
-.etiqueta {
+.cabecalho p {
     margin-bottom: 12px;
-    color: #7a1f2b;
     font-size: 14px;
     font-weight: bold;
+    letter-spacing: 0;
     text-transform: uppercase;
 }
 
-h1 {
-    margin-bottom: 16px;
-    color: #42131b;
-    font-size: 44px;
-}
-
-h2 {
+.cabecalho h1 {
     margin-bottom: 12px;
-    color: #42131b;
+    font-size: 40px;
 }
 
-p {
-    max-width: 680px;
+.cabecalho span {
     font-size: 18px;
+}
+
+.conteudo {
+    width: min(900px, 92%);
+    margin: 0 auto;
+    padding: 36px 0;
+}
+
+.bloco {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #decfc2;
+}
+
+.bloco h2 {
+    margin-bottom: 12px;
+    color: #5c1721;
+    font-size: 24px;
+}
+
+.bloco p,
+.bloco li {
+    font-size: 17px;
     line-height: 1.6;
 }
 
-img {
-    width: 100%;
-    height: 420px;
-    object-fit: cover;
+.bloco ul {
+    padding-left: 24px;
+}
+
+.destaque {
+    padding: 20px;
+    border: 1px solid #decfc2;
     border-radius: 8px;
+    background-color: #ffffff;
 }
 
-.orientacoes {
-    margin-top: 40px;
-    padding-top: 24px;
-    border-top: 1px solid #d8c5b3;
+.rodape {
+    padding: 24px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #2d211c;
 }
 
-@media (max-width: 760px) {
-    .hero {
-        grid-template-columns: 1fr;
+.rodape p {
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    .cabecalho {
+        padding: 40px 18px;
     }
 
-    h1 {
-        font-size: 34px;
+    .cabecalho h1 {
+        font-size: 32px;
     }
 
-    img {
-        height: 280px;
+    .cabecalho span {
+        font-size: 16px;
     }
 }
