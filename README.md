@@ -1,10 +1,10 @@
-# Vinheria Agnello - Checkpoint 02
+# Vinharia Agnello - Checkpoint 02
 
-Projeto base para o Checkpoint 02 de Front-End.
+Projeto base para o Checkpoint 02 de Web.
 
 ## Descricao
 
-Este projeto reaproveita a ideia da Vinheria Agnello e inicia um sistema simples de cadastro de vinhos usando JavaScript.
+Este projeto reaproveita a ideia da Vinharia Agnello e inicia um sistema simples de cadastro de vinhos usando JavaScript.
 
 O sistema roda com `prompt()`, `alert()` e `console.log()`, permitindo cadastrar vinhos em sequencia e exibir um resumo final com:
 

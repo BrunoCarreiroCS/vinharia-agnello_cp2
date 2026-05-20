@@ -54,7 +54,7 @@ function mostrarDados(nome, tipo, safra, quantidade, classificacao) {
     }
 }
 
-alert("Bem-vindo ao sistema da Vinheria Agnello!");
+alert("Bem-vindo ao sistema da Vinharia Agnello!");
 
 let desejaContinuar = "s";
 let totalCadastros = 0;
