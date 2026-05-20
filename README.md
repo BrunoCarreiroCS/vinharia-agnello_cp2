@@ -14,17 +14,12 @@ O sistema roda com `prompt()`, `alert()` e `console.log()`, permitindo cadastrar
 
 ## Integrantes
 
-- Nome completo do integrante 1
-- Nome completo do integrante 2
-- Nome completo do integrante 3
-- Nome completo do integrante 4
-- Nome completo do integrante 5
+-Bruno Carreiro 
+-Daniel Graciano
+-Eduardo
+-Gustavo Moita
+-Gustavo Romero
 
-## Link do GitHub Pages
-
-Adicionar aqui depois da publicacao:
-
-`https://usuario.github.io/vinheria-agnello-checkpoint02/`
 
 ## Estrutura
 
@@ -45,7 +40,6 @@ vinheria-agnello-checkpoint02/
 
 ## Proximos passos do grupo
 
-- Trocar os nomes dos integrantes no README.
 - Criar o novo repositorio chamado `vinheria-agnello-checkpoint02`.
 - Fazer cada integrante realizar pelo menos dois commits.
 - Revisar e melhorar as funcoes do JavaScript.
