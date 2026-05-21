@@ -19,3 +19,19 @@ function validarNumero(mensagem) {
 
     return valor;
 }
+
+function verificarEstoqueBaixo(quantidade) {
+    return quantidade < 5;
+}
+
+function classificarVinho(safra) {
+    let idade = 2026 - safra;
+
+    if (idade <= 3) {
+        return "Jovem";
+    } else if (idade <= 10) {
+        return "Amadurecido";
+    } else {
+        return "Antigo";
+    }
+}
