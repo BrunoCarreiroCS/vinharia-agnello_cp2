@@ -35,3 +35,19 @@ function classificarVinho(safra) {
         return "Antigo";
     }
 }
+
+function mostrarDados(nome, tipo, safra, quantidade, classificacao, estoqueBaixo) {
+    console.log("-------------------------");
+    console.log("Nome do vinho: " + nome);
+    console.log("Tipo: " + tipo);
+    console.log("Safra: " + safra);
+    console.log("Quantidade em estoque: " + quantidade);
+    console.log("Classificação: " + classificacao);
+
+    if (estoqueBaixo) {
+        console.log("Aviso: estoque baixo!");
+        alert("Vinho cadastrado! Atenção: estoque baixo.");
+    } else {
+        alert("Vinho cadastrado com sucesso!");
+    }
+}
