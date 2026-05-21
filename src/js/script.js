@@ -68,3 +68,16 @@ while (continuar.toLowerCase() === "sim") {
  
    let classificacao = classificarVinho(safra);
    let estoqueBaixo = verificarEstoqueBaixo(quantidade);
+
+   totalCadastros++;
+ 
+   if (estoqueBaixo) {
+       totalEstoqueBaixo++;
+   }
+ 
+   if (totalCadastros === 1 || safra < safraMaisAntiga) {
+       safraMaisAntiga = safra;
+       nomeSafraMaisAntiga = nome;
+   }
+ 
+   mostrarDados(nome, tipo, safra, quantidade, classificacao, estoqueBaixo);
