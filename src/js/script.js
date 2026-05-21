@@ -96,3 +96,33 @@ while (continuar.toLowerCase() === "sim") {
        continuar = prompt("Deseja cadastrar outro vinho? Digite sim ou não:");
    }
 }
+// PARTE 4 - Resumo final
+
+alert(
+
+   "Resumo final:\n" +
+
+   "Cadastros feitos: " + totalCadastros + "\n" +
+
+   "Vinhos com estoque baixo: " + totalEstoqueBaixo + "\n" +
+
+   "Vinho com a safra mais antiga: " +
+
+   nomeSafraMaisAntiga + " - Safra " + safraMaisAntiga
+
+);
+ 
+console.log("========== RESUMO FINAL ==========");
+
+console.log("Cadastros feitos: " + totalCadastros);
+
+console.log("Vinhos com estoque baixo: " + totalEstoqueBaixo);
+
+console.log(
+
+   "Vinho com a safra mais antiga: " +
+
+   nomeSafraMaisAntiga + " - Safra " + safraMaisAntiga
+
+);
+ 
