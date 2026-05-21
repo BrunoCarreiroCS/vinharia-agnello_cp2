@@ -51,3 +51,10 @@ function mostrarDados(nome, tipo, safra, quantidade, classificacao, estoqueBaixo
         alert("Vinho cadastrado com sucesso!");
     }
 }
+
+let continuar = "sim";
+let totalCadastros = 0;
+let totalEstoqueBaixo = 0;
+
+let safraMaisAntiga = 0;
+let nomeSafraMaisAntiga = "";
