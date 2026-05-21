@@ -58,3 +58,13 @@ let totalEstoqueBaixo = 0;
 
 let safraMaisAntiga = 0;
 let nomeSafraMaisAntiga = "";
+
+while (continuar.toLowerCase() === "sim") {
+ 
+   let nome = validarTexto("Digite o nome do vinho:");
+   let tipo = validarTexto("Digite o tipo do vinho:");
+   let safra = validarNumero("Digite a safra do vinho:");
+   let quantidade = validarNumero("Digite a quantidade em estoque:");
+ 
+   let classificacao = classificarVinho(safra);
+   let estoqueBaixo = verificarEstoqueBaixo(quantidade);
