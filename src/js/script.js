@@ -81,3 +81,18 @@ while (continuar.toLowerCase() === "sim") {
    }
  
    mostrarDados(nome, tipo, safra, quantidade, classificacao, estoqueBaixo);
+
+   continuar = prompt("Deseja cadastrar outro vinho? Digite sim ou não:");
+ 
+   while (
+       continuar === null ||
+       continuar.trim() === "" ||
+       continuar.toLowerCase() !== "sim" &&
+       continuar.toLowerCase() !== "não" &&
+       continuar.toLowerCase() !== "nao"
+   ) {
+ 
+       alert("Digite apenas sim ou não.");
+       continuar = prompt("Deseja cadastrar outro vinho? Digite sim ou não:");
+   }
+}
